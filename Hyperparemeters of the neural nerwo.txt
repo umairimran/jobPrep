@@ -1,0 +1,26 @@
+Hyperparemeters of the neural nerwork
+
+
+Bias = underfitting
+Variance=Overfitting
+high bias -> bigger network,train larger, train longer, change architecture
+high variance -> more data, regularization, cnn architecture
+idea->code->repeat
+bias-variance trade off
+
+
+Regulariczation:
+L1,L2,Dropout (deactivating some of the nodes randomly) regularization
+
+Augmentation for image data means just increasing the size of data  by rotating zooming or flipping image
+
+Early stopping the iteration on which the gradient value is the lowest then stop there
+
+Normalizing the inputs as they will then be on the same scale
+
+Exploading the gradient optimization and gradient vanishing problem
+
+Gradient checking is also a step
+
+weights initializing
+
