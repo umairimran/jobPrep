@@ -1,0 +1,21 @@
+operating systems chapter 1
+
+
+
+
+
+
+
+separate device:
+Local buffer 
+Causing Interrupt they tell that the operation has finished
+
+
+
+Interrupts:
+Interrupt vector contains services routines
+
+Trap or Exception:
+Software throughs exception
+Hardware : Trap 
+Printer shows a trap becaue system has thoruw the exception in software
