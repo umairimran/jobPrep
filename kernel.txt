@@ -1,0 +1,53 @@
+kernel
+conv
+pooling
+stride
+padding
+image resize
+rgb concept
+validation test set
+overfitting
+graph of val lose accurary
+image augmentation to increase size of dataset
+droupout method  randomly turning off the neuraons which are not required
+early stopping
+droupout
+L1 L2 regularization
+dropout dropconnect
+
+
+resizing
+color images
+rgb image
+convuoutions
+max pooling
+validation set
+
+methods to prevent teh overfitting
+early stopping
+image augumentation
+droupout
+
+
+
+
+
+
+TRANSFER LEARNING :
+Pre Build Models Alexnet 
+Freezing the model : only last layer must train not intermediate data must change
+Which model to choose:
+Alexnet
+Inception
+Resnet
+MobileNet
+
+URL="https://tfhub.dev/google.tf2-preview/mobilenet_v2/feature_vector/2"
+image_res=224
+model=tf.keras.Sequential(
+[
+hub.KerasLayer(CLASSIFIER_,input_shape=(image_res)
+])
+
+
+
