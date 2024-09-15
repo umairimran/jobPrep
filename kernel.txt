@@ -49,5 +49,44 @@ model=tf.keras.Sequential(
 hub.KerasLayer(CLASSIFIER_,input_shape=(image_res)
 ])
 
+freezing parameter
+only last classification layer must update accordingly
+
+
+
+Saving and Loading Models
+TensorFlow Serving
+TensorFlow lite
+tensorflow.js
+other language bindings
+android 
+respherry pi
+directly web browser usage
+
+
+
+
+Time Series Analysis:
+Many can be in sequence.
+Trend seasonality
+some are unpredictable
+white noise
+find probality stributon then find its parameters
+
+metrics mse is the most common 
+errors=forecasts-actual
+mse=np.square(errors).mean()
+mae = np.abs(errors).mean()
+mape=np.abs(errors/x_valid).mean()
+
+
+Recurrent Neural Network
+Forecasts -> Dense Layer -? Recurrent
+
+Recurrent Layer:
+activation is hyperbolic function 
+bcz they have unstable gradients if we using function like the relu it would vanish . hyperbolic 10H function 
+
+ 
 
 

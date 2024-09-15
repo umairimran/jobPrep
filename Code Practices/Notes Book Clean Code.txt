@@ -1,0 +1,12 @@
+->run all the tests
+->contains no duplication
+express all the design ideas that are in system
+minimize e number of entities such as classes and methods functions
+
+
+
+Meaning Full Names: Chapter 2.
+Use Intention-Revealing Names:
+  Should Be meaningfull.
+  CheckPoint : Page 50
+  

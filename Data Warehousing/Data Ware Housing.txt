@@ -1,0 +1,163 @@
+Data Ware Housing
+
+
+The compelling need for data warehousing:
+Integrity
+Accessible
+Credible
+Timely
+
+
+
+
+Chapter 2 :
+Data Warehousing The Building Blocks
+
+Approach must be cleared in mind that whether to use top down approach or bottom up approach whether to make datamarts or dataware house
+
+Enterprise level or departmental level
+Which first dm or dw?
+Build with pilot go or full fledge implementation?
+Dependent or independent datamarts?
+
+
+Top down approach :
+  Advantages:
+Truely corporate big
+architexted correctly not a union of disperate data marts
+single , central storage
+centralized rules and control
+make quick results if implemented
+  Disadvantages:
+Takes longer to build
+high risk
+need cross functional fkills
+high outlay without proof of concept
+
+
+Bottom Up Approach: first make dm then dw
+	Advantages:
+faster  and easier
+favorable return on investment
+less risk
+incremental
+allow project team to learn
+
+	Disadvanteges:
+Narrow less view of data
+redundant data
+inconsistent data
+unmanageable interfaces
+
+
+
+
+
+Centralized :
+no dm
+summary of overall data
+source_data->staging->storage->delivery
+
+Independant DM:
+Redundant and inconsistent data
+source->staging->multiple DM to store -> delivery
+
+
+Federated :
+DM->delivery
+
+Hub And Spoke:
+source->staging->storage in dw -> dm->delivery
+
+Data Mart Bus:
+
+
+
+Source data components: Four components or four types or sources
+External: From outer sources like competitors a analysis
+Production: From OLTP
+Internal: Private spreadsheets documents
+Archived:Old data that has been saved in companies database.
+
+
+
+Data Staging component:
+
+Data Extraction:
+
+Data transformation
+Data Loading 
+Data Storage Component
+Information delivery component
+
+Refresh rates :
+deffered  vs immidiate
+ 
+
+     
+
+1. Name at least six characteristics or features of a data warehouse.
+For specific domain orgnation subject oriented 
+Data is integrated from all departments in single place
+Non volatile not frequent changes just add data remove according to req
+Ad hoc access for quering and reporting
+supports olap system
+
+
+2. Why is data integration required in a data warehouse, more so than in an operational
+application?
+-Combinaing data from many sources
+-Ensure data consistency
+- For analysis
+-For fast reporting
+-Creating a Single Source of Truth
+
+
+
+3. Every data structure in the data warehouse contains the time element. Why?
+
+Bcz we need to analysize according  to time in market analysis
+
+
+
+
+
+
+4. Explain data granularity and how it is applicable to the data warehouse.
+
+Data granularity in a data warehouse refers to the level of detail in the data stored, ranging from highly detailed (e.g., individual transactions) to aggregated summaries (e.g., monthly sales totals). It affects performance, storage, and analysis: detailed data supports in-depth, transactional analysis, while aggregated data facilitates quicker, high-level reporting and trend analysis. Balancing granularity is crucial for optimizing query performance and storage efficiency, allowing a data warehouse to provide both detailed insights and summarized overviews based on user needs.
+
+
+5. How are the top-down and bottom-up approaches for building a data warehouse differ-
+ent? List the major types of architectures and highlight the features of any two of these.
+
+
+
+6. What are the various data sources for the data warehouse?
+
+7. Why do you need a separate data staging component?
+Data Cleansing
+Data Aggregation
+Data Normalization
+Data Enrichment
+Data Filtering
+
+8-Name any six diffent methods for information delivery?
+Reports
+Dashboards
+Data Visualization
+Interactive Queries
+Alerts and Notifications
+Ad Hoc Analysis
+
+9- types of meta data:
+
+Operational metadata
+† Extraction and transformation metadata
+† End-user metadata
+
+
+
+
+
+

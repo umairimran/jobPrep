@@ -1,0 +1,122 @@
+AI Outbound Calling System - Agent-based Web Software
+Posted 2 days ago
+Worldwide
+Specialized profiles can help you better highlight your expertise when submitting proposals to jobs like these. Create a specialized profile.
+
+1. Project Overview
+The AI outbound calling system is a web-based platform designed to automate and manage outbound calls. The platform operates on an agent-based model, where agents (resellers or authorized partners) are licensed to use the software. The system leverages AI technology to handle large-scale sales, customer service, surveys, and reminder calls. Agents must complete business certification to gain access, and the platform charges agents a service fee based on their usage.
+
+2. Pre-login Homepage (For Public Viewing)
+This section is displayed to users who have not yet registered or logged in, providing basic information and an overview of the outbound calling system.
+Platform Introduction: A brief description of the AI outbound calling system’s features, advantages, and service model, including intelligent call management, automatic voice response, CRM integration, etc.
+Core Feature Display: A visual display of the system’s core functions (such as AI calling, bulk contact upload, real-time monitoring, automatic responses), accompanied by brief explanations.
+User Testimonials & Case Studies: Showcasing real user feedback and success stories to build trust with potential users.
+FAQ: Addressing common questions from potential users to help them understand how the platform works.
+Registration & Business Certification: Guide users through registration and business certification to ensure lawful platform usage.
+
+3. Functional Requirements
+3.1 Agent System (For Authorized Agents)
+This section describes the core functions available to authorized agents for managing their clients’ or business customers’ outbound calling operations.
+3.1.1 Agent Authorization and Certification
+Mobile Registration and Login: Agents must register and log in using their mobile number.
+Business Certification: After registration and login on the official website, agents must complete a business-level certification process to verify their legal business status before gaining access to the platform.
+Agent Dashboard Access: Once certified, agents will gain access to the platform’s dashboard, where they can manage outbound calls, monitor performance, and access usage analytics.
+3.1.2 Call Management
+Call Scheduling: Agents can schedule automated outbound calls for specific times, including batch calls to multiple recipients.
+Call Scripts: Pre-set AI-driven scripts can be used for different types of calls (e.g., sales, customer support, surveys), with dynamic variables to personalize calls for different recipients (e.g., customer name).
+AI Voice Interaction: The AI system will handle conversations, intelligently responding to the recipient’s questions.
+Real-time Monitoring: Agents can monitor calls in real-time, view call status, and intervene if necessary.
+Call Recording & Transcription: All calls will be automatically recorded, and agents can access the recordings for review and receive real-time transcriptions.
+3.1.3 Contact Management
+Bulk Contact Upload: Agents can upload large contact lists in CSV or Excel format, and the system will automatically validate phone numbers for accuracy.
+Segmentation & Tagging: Contacts can be divided into different categories, and tags can be applied to facilitate targeted outbound campaigns.
+CRM Integration: The system supports integration with popular CRM platforms (e.g., Salesforce, HubSpot), enabling seamless data synchronization between CRM systems and outbound calling activities.
+3.1.4 Automated Voice Responses
+Pre-recorded Messages: Agents can upload pre-recorded voice messages or use AI to generate custom messages for automated outbound calls.
+Dynamic Call Flow: The system supports customizable call flows, allowing agents to design calls based on recipient responses (e.g., press 1 for more details, press 2 to speak with an agent).
+AI Response Handling: AI-powered responses handle common inquiries and adjust intelligently based on recipient input.
+3.1.5 Call Analytics & Metrics
+Call Outcome Reports: Agents can view detailed reports on call outcomes (e.g., successful, unanswered, busy) to better analyze their outbound campaigns.
+Call Duration & Engagement Metrics: The system tracks call duration, response times, and engagement, helping agents measure the effectiveness of their campaigns.
+Real-time Analytics Dashboard: Agents can access a dashboard that displays real-time metrics such as call volume, success rates, and conversion rates.
+3.1.6 Callback Management
+Automated Callback Scheduling: If a customer requests a callback or the initial call was not answered, the system will automatically reschedule the call.
+Callback Prioritization: Agents can flag important contacts for priority callbacks, ensuring high-value customers are contacted promptly.
+
+3.2 Agent Control Panel (For Agent Configuration and Management)
+This section provides agents with tools to configure and manage outbound campaigns, customer contacts, and system settings.
+3.2.1 Agent Dashboard
+Real-time Activity Monitoring: Agents can track ongoing outbound campaigns, monitor call volumes, and review the performance of different campaigns in real time.
+Multi-campaign Support: Agents can run multiple outbound campaigns simultaneously and manage them all from a unified dashboard.
+Campaign Summary Reports: After completing campaigns, agents can view detailed summary reports, including conversion rates and call success statistics.
+3.2.2 Contact Database Management
+Contact Import/Export: Agents can import contact lists via CSV or Excel and export detailed contact lists with call results.
+Contact Segmentation: Agents can create segmented lists based on region, customer behavior, or business type for more precise targeting.
+3.2.3 Customizable Call Flows
+Call Flow Builder: Agents can use an intuitive drag-and-drop interface to design custom call flows, creating scripts for sales, surveys, or support calls.
+Script Library: Agents can store and reuse frequently used scripts, customizing them with variables like customer names or product details.
+Style Settings: Agents can set language (Mandarin, English, Cantonese) and voice style (male, female), etc.
+Risk Control System: Agents can set up prohibited words to prevent inappropriate responses.
+3.2.4 Billing & Usage Management
+Usage-based Billing: The platform charges agents based on their usage, including call volume, AI response usage, and premium features.
+Service Fees: The platform collects a percentage of the agent's revenue or charges a fixed service fee according to the agent’s contract.
+Subscription Plans: Different subscription tiers provide varying access to features such as higher call volume limits, CRM integration, and advanced analytics. (The platform backend should be able to set corresponding function permissions for different subscription plans.)
+Payment Integration: Agents can manage their subscription plans and make payments via integrated payment gateways (cryptocurrency, PayPal, Stripe, Alipay, WeChat Pay).
+Invoice Generation: The system automatically generates invoices based on the agent’s usage and subscription plan. (The platform backend should be able to set invoice templates.)
+3.2.5 User Conversation Export
+One-click Export Function: Agents can export all user conversations with the system in one click and download them in CSV or Excel format for further analysis and archiving.
+
+3.3 Platform Management Panel (For Platform Administrators)
+This section describes the administrative functions available to platform operators for managing agents, handling payments, and monitoring system-wide activities.
+3.3.1 Agent Management
+Agent Certification Approval: Administrators can review and approve or reject agent business certification applications.
+Agent Roles & Permissions: Administrators can create different roles for agents, assigning permissions based on the agent’s business needs and subscription tier.
+Activity Logs: Platform administrators can view detailed agent activity logs, including call logs, contact uploads, campaign configurations, and payment records.
+3.3.2 Risk Control & Security Management
+Banned Number Filtering: The system automatically blocks calls to prohibited numbers, such as government-restricted or DNC numbers, ensuring agents remain compliant.
+Real-name Authentication: All agent users must complete real-name authentication before accessing platform functions.
+Data Encryption: All data, including call recordings and contact information, should be encrypted during storage and transmission to comply with GDPR and other privacy regulations.
+Style Settings: Administrators can set language (Mandarin, English, Cantonese) and voice styles (male, female).
+Risk Control System: Administrators can configure prohibited words to prevent inappropriate responses.
+AI Response/Call Pre-settings: Administrators can set response sequences and ensure no inappropriate language is used.
+3.3.3 Payment & Subscription Management
+Subscription Tier Management: Administrators can define and manage subscription tiers, each providing different features such as call volume limits, advanced analytics, and CRM integration.
+Service Fee Collection: After subscription, agents must recharge their account balance to use the system. Charges will be applied based on usage, and billing details will be displayed on the subscription page.
+Payment Gateway: The system integrates multiple payment methods, such as PayPal, Stripe, cryptocurrencies, Alipay, and WeChat, allowing agents to manage their subscriptions. (The backend can enable or disable different payment methods.)
+Invoice Management: The platform generates and manages invoices for agents, ensuring accurate billing based on usage.
+3.3.4 Announcements & Marketing Emails System
+Announcement Publishing: Platform admins or agents can publish announcements in the backend, which will be displayed on the user’s dashboard. Admins can also send announcements via email.
+Marketing Emails: The platform supports sending marketing emails, where admins or agents can use email templates to send customized marketing messages to users.
+3.3.5 API Integration & Authorization
+API Integration: The platform supports API integration with third-party services (e.g., CRM systems), allowing agents to sync contact data and access real-time updates.
+External API Authorization: Administrators can manage external API access and configure which platform features agents can call via API.
+3.3.6 System Analytics & Reporting
+Comprehensive Reports: Administrators can generate reports on agent activity, including call volume, service fees collected, system uptime, and agent growth.
+System Logs & Auditing: The platform maintains detailed logs of all activities, allowing for comprehensive audits of system performance, agent activities, and security protocols.
+
+4. Technical Requirements
+4.1 Frontend
+Tech Stack: Use React or Angular to develop a responsive, multi-device web interface.
+Agent UI Customization: Implement a no-code UI configuration system, allowing agents to design custom call flows and manage their activities without coding.
+Multi-language Support: The frontend should support multiple languages, including Chinese and English.
+4.2 Backend
+Tech Stack: Use Node.js, Python, or Java for the backend, supporting high concurrency to ensure stable performance during large-scale calling.
+Database: Implement MongoDB or MySQL to handle contact data, call logs, agent details, and system metrics.
+RESTful API: Ensure the system is built with a RESTful API for seamless integration with third-party systems (e.g., CRM platforms).
+4.3 Security & Compliance
+SSL Encryption: All data should be transmitted securely using SSL encryption to ensure data safety.
+GDPR Compliance: The system must comply with GDPR and other global data privacy regulations.
+Two-factor Authentication (2FA): Platform admins and agents must use two-factor authentication to ensure secure logins and account management.
+Source Code Security: If open-source projects are used for secondary development, the source code must be thoroughly checked for security, and any malicious elements must be removed to ensure 100% clean and secure code. The project’s source code must not include any unauthorized licenses, ensuring complete ownership.
+
+5. UI Reference Links
+Aircall Website Reference: Aircall
+CallRail Website Reference: CallRail
+Twilio API Documentation: Twilio
+
+6. Project Requirements, Process & Delivery
+Developer Requirements: The development team must have experience building agent-based platforms, AI technology, and telephony systems, with a complete project portfolio and qualifications.
+Pre-development Planning: A complete design proposal, including UI/UX prototypes, call flow diagrams, and feature specifications, must be submitted before development.
+Payment Terms: Once the proposal is confirmed, both parties will sign a contract, and we will deposit all funds into escrow on the Upwork platform. Funds will only be released upon full project completion; milestone payments are not accepted to avoid project disruption.
+Development Language: Use commonly adopted development languages for the project from scratch.
+Budget: $1,200.
